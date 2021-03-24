@@ -1,5 +1,3 @@
-const { lightyellow } = require("color-name");
-
 // clase padre
 class InputDevice{
     constructor(inputTipe, brand){
