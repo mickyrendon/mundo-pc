@@ -1,4 +1,11 @@
-const { lightyellow } = require("color-name");
+"use strict";
+
+let input = '';
+let inputMouse = document.getElementById('mouse-brand');
+function myArray() {
+    
+    
+}
 
 // clase padre
 class InputDevice{
@@ -31,6 +38,7 @@ class InputDevice{
 let input1 = new InputDevice('mouse', 'apple');
 console.log(input1.toString());
 
+let input2 = new InputDevice()
 /////////////////////////////////////////////////////
 
 // CLASES HIJAS
