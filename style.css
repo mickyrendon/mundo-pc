@@ -30,7 +30,7 @@ main{
     width: 55%;
     height: 80%;
     display:flex;
-    justify-content: center;
+    justify-content:center;
     flex-flow: row wrap;
     border-radius: 10px;
     box-shadow: 4px 4px #dfdfdd;
@@ -55,4 +55,13 @@ input{
 }
 #mouse-input, #keyboard-input, #monitor-input{
     margin-bottom: 40px;
+}
+
+#submit{
+    max-width: 150px;
+    height: 40px;
+    background-color:#6ba9d7;
+    color: #f6f6ee;
+    font-weight: bolder;
+    border-radius: 50px;
 }
