@@ -56,7 +56,10 @@ input{
 #mouse-input, #keyboard-input, #monitor-input{
     margin-bottom: 40px;
 }
-
+#btn{
+    display: flex;    
+    justify-content: center;
+}
 #submit{
     max-width: 150px;
     height: 40px;
