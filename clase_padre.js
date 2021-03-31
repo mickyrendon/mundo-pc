@@ -1,14 +1,4 @@
 "use strict";
-
-// crear una funcion que guarde el string de cada input
-// pushear ese string en su respectivo array de su respectiva clase
-let input = '';
-let inputMouse = document.getElementById('mouse-brand');
-function myArray() {
-    
-    
-}
-
 // clase padre
 class InputDevice{
     constructor(inputTipe, brand){
